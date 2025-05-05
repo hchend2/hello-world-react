@@ -5,7 +5,7 @@ export default function LayoutPage() {
   return (
     <div className="layout">
       <header className="header">
-        <h1>Hello World App</h1>
+        <h1>Hello, From React App</h1>
         <nav>
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
