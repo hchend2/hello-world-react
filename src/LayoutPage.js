@@ -1,3 +1,6 @@
+//
+// File: ../hello-world-react/src/LayoutPage.js
+//
 import { Link, Outlet } from 'react-router-dom';
 import './App.css';
 
@@ -20,7 +23,6 @@ export default function LayoutPage() {
     </div>
   );
 }
-
 
 // This code defines a layout component for a React application using React Router.
 // The LayoutPage component includes a header with navigation links to the Home and About pages.
