@@ -7,7 +7,7 @@ export default function AboutPage() {
   return (
     <div className="page about">
       <h2>About Us</h2>
-      <p>This page shares more information about our awesome app and team.</p>
+      <p>This page shares more information about our awesome Hello world react app and team.</p>
     </div>
   );
 }

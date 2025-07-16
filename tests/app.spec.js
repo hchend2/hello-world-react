@@ -14,7 +14,7 @@ test.describe('React App Routing', () => {
   test('should navigate to About page', async ({ page }) => {
     await page.goto('http://localhost:3000/about');
     await expect(page.locator('h2')).toHaveText('About Us');
-    await expect(page.getByText('This page shares more information about our awesome app and team.')).toBeVisible();
+    await expect(page.getByText('This page shares more information about our awesome Hello world react app and team.')).toBeVisible();
   });
   // check to make sure that the LayoutPage is properly rendered ...
   test('should render LayoutPage elements', async ({ page }) => {
